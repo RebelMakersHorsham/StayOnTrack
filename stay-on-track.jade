@@ -2,11 +2,14 @@ head
   title stay-on-track
 
 body
-  h1 Welcome to Meteor!
-
-  {{> hello}}
-
-template(name="hello")
-  button Click Me
-  p You've pressed the button {{counter}} times.
+  nav
+    .nav-wrapper.container
+      a.brand-logo(href="#") Stay on Track
+      ul.right.hide-on-med-and-down
+        li
+          a(href="#") Stuff
+        li
+          a(href="#") Other stuff
+  .container
+    h1 Content
 
